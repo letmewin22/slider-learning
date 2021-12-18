@@ -11,6 +11,9 @@
   margin: 0 auto;
   position: relative;
   overflow: hidden;
+  @media (max-width: $br1) {
+    width: 100%;
+  }
 }
 
 .slide {
@@ -40,6 +43,9 @@
   transform: translateY(-50%);
   display: flex;
   justify-content: space-between;
+  @media (max-width: $br1) {
+    display: none;
+  }
 }
 
 .nav__item {
